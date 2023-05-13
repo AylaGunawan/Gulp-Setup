@@ -1,0 +1,40 @@
+{
+  "name": "countrytheme",
+  "version": "1.0.0",
+  "description": "Accessible WordPress theme utilizing flex layouts and modern development practices.",
+  "main": "index.php",
+  "type": "module",
+  "scripts": {
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cp3402-students/project-team-02"
+  },
+  "author": "Morten Rand-Hendriksen",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cp3402-students/project-team-02/issues"
+  },
+  "homepage": "https://github.com/cp3402-students/project-team-02#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "browser-sync": "^2.29.1",
+    "gulp": "4.0.2",
+    "gulp-image": "^6.3.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "jshint": "^2.13.6",
+    "sass": "^1.62.1",
+    "node-fetch": "^3.3.1"
+  },
+  "compilerOptions": {
+  "module": "es6",
+  "target": "es5"
+  }
+}
